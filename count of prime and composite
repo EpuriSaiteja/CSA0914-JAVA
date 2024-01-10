@@ -1,0 +1,26 @@
+class main {
+    public static void main(string[] args) {
+        int arr[] = {4, 9, 1, 10, 15, 54, 53, 69};
+        int comp = 0, prime = 0;
+        for (i = 0; i < arr.length; i++) {
+            int c=0;
+            for(int j = 1; j <= arr[i];j++){
+                if(arr[i]%j==0){
+                    c++;
+                    
+                }
+                    
+                }
+                    if(c>1);{
+                    comp++;
+                    }
+                    else{
+                        prime++;
+                        
+                    }
+            }
+            system.out.print("composite"+comp);
+                    system.out.println("prime"+prime);
+            }
+
+        }
